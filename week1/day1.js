@@ -68,8 +68,8 @@
 
 let length = prompt("Length of the rectangle?")
 let width = prompt("Width of the rectangle?")
-length = parseInt(length)
-width = parseInt(width)
+length = parseFloat(length)
+width = parseFloat(width)
 let area = width * length
 let perimeter = 2 * (width + length)
 console.log("Area: ", area)
