@@ -8,6 +8,8 @@
  * var name = "dan"
  * name = "joe"
  * 
+ * Is always GLOBALLY SCOPED
+ * 
  * @LET
  * You CANNOT REDECLARE a variable
  * let name = "pineapple"
@@ -16,6 +18,8 @@
  * You CAN REASSIGN a variable
  * let name = "pineapple"
  * name = "abe"
+ * 
+ * Is NOT always GLOBALLY SCOPED
  * 
  * @CONST
  * You CANNOT REDECLARE a variable
