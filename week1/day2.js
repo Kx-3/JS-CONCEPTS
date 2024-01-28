@@ -44,18 +44,15 @@
 
 // }
 
-let firstNumber = prompt("Enter a number")
-let secondNumber = parseInt(firstNumber)
+let n = prompt("Enter a number")
+n = parseInt(n)
 let sum = 0
 
-for(let i = 1; i < secondNumber; i++) {
+for(let i = 1; i < n; i++) {
     let remFirst = i%3
     let remSecond = i%5
     if (remFirst === 0 || remSecond === 0) {
         sum += i
-    }
-    else {
-        sum = sum
     }
 }
 

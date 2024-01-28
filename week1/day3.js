@@ -1,3 +1,29 @@
+/**
+ * @ARRAYS ->  sequence of data types separated by commas and enclosed in square brackets
+ * examples -> [1,2,3,4,5] || ["John", "Peter", "Mary", "Jane"]
+ */
+// let names = ["John", "Peter", "Mary", "Jane"]
+// let numbers = [1,2,3,4,5]
+
+// ITERATIONS
+// WHILE LOOP
+// let i = 0 
+// while(i < 10){
+//     console.log(i)
+//     i+=2
+// }
+
+// DO WHILE LOOP
+// let i = 0
+// do {
+//     console.log(i)
+//     i++
+// }while(i < 10)
+// for (let i = 0; i < names.length; i++) {
+//     console.log(names[i])
+// }
+
+
 // Recursive factorial calculation
 // function factorial(n) {
 //     if (n === 0) {
