@@ -39,6 +39,14 @@
 // }
 // consoleHello() //function call
 
+/**@FUNCTION EXPRESSIONS */
+const add = function(a, b) {
+    return a + b
+}
+
+/**@ARROW FUNCTIONS */
+const add2 = (a,b) => a + b
+
 /**@FORLOOPS */
 // for (let i = 0; i < 10; i++) {
 

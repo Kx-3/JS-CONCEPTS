@@ -1,12 +1,19 @@
 // let person = {
-//     name: "John",
+//     name: "Abe",
 //     age: 30,
+//     dateofbirth: new Date(1997, 3, 1),
+//     hobbies: {
+//       indoor: ['baking', 'reading'],
+//       outdoor: ['hiking', 'swimming'],
+//     },
 //     greet: function() {
-//       console.log("Hello, " + this.name + "!");
+//       console.log("Hello, " + this.age + "!");
 //     }
 //   };
 
 //   person.greet()
+//   console.log(person.hobbies.indoor[1])
+//   console.log(person.dateofbirth.toDateString())
 
 
 // let numbers = [1, 2, 3, 4, 5];
@@ -28,13 +35,7 @@
 // fruits.shift();
 // console.log(fruits)
 
-/**@CHALLENGE */
-let a = [
-  { name: 'Alice', age: 25, city: 'New York' },
-  { name: 'Bob', age: 30, city: 'Chicago' },
-  { name: 'Charlie', age: 35, city: 'New York' },
-  { name: 'Dave', age: 40, city: 'Chicago' }
-]
+
 // function group2(array, cityName) {
 //     const found = array.filter(({city}) => city === cityName)
 //     console.log(found)
@@ -58,15 +59,29 @@ let a = [
 //   }
 // }
 
+/**@CHALLENGE */
+
+let a = [
+  { name: 'Alice', age: 25, city: 'New York' },
+  { name: 'Bob', age: 30, city: 'Chicago' },
+  { name: 'Charlie', age: 35, city: 'New York' },
+  { name: 'Dave', age: 40, city: 'Chicago' },
+  { name: 'David', age: 40, city: 'Paris' },
+  { name: 'Abe', age: 24, city: 'Kisumu' },
+  { name: 'Okwaro', age: 62, city: 'Kisumu' },
+  { name: 'Adnan', age: 10, city: 'Tokyo' },
+  { name: 'Dave', age: 55, city: 'Tokyo' },
+  { name: 'Roman', age: 29, city: 'Los Angeles' },
+]
 
 function groupBy(array, property) {
   let groupedItems = {}
   for(const item of array){
-    let value = item[property]
-    if(!groupedItems[value]){
-      groupedItems[value] = []
+    let key = item[property]
+    if(!groupedItems[key]){
+      groupedItems[key] = []
     }
-    groupedItems[value].push(item)
+    groupedItems[key].push(item)
     
   }
   return groupedItems
