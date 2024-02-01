@@ -57,6 +57,15 @@
  * @MODULUS -> %
  */
 
+/**
+ * @NAMING_RULES
+ * 
+ * camelCase -> thisIsCamelCase
+ * PascalCase -> ThisIsPascalCase
+ * snake_case -> this_is_snake_case
+ * kebab-case -> this-is-snake-case
+ */
+
 // Sales CALCULATOR
 // const sockCost = 50
 // const bagCost = 50
